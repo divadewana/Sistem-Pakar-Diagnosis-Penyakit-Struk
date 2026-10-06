@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../../img/hasil.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 67vmax;
+  background-color: white;
+}
+
+.nav-custom {
+  background-color: #008cc1;
+}
+
+.nav-custom .navbar-brand img {
+  width: 50px;
+  height: 50px;
+  margin-top: -7px;
+}
+
+.nav-custom .navbar-brand span {
+  color: #fffefe;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-left: 0.5em;
+}
+
+.nav-custom #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #fffbfb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 2.4em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+}
+
+.nav-custom #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  font-weight: 700;
+  color: #000000;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.nav-custom #navbarNav .navbar-nav .nav-item .nav-link:active {
+  font-weight: 700;
+  color: #000000;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.nav-custom #navbarNav .navbar-nav .nav-item .btn-signup:hover {
+  font-weight: 700;
+  background-color: white;
+  color: black;
+}
+
+.nav-custom #navbarNav .navbar-nav .nav-item .btn-signup {
+  background-color: #008cc1;
+  color: white;
+  border-radius: 2em;
+  border: 0;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-custom {
+    margin-top: -1em;
+  }
+  .nav-custom .navbar-nav {
+    background-color: #008cc1;
+    padding: 1em;
+    margin-left: -1em;
+    margin-top: 0.5em;
+  }
+}
+
+.custom-section {
+  margin-top: 3em;
+}
+
+.custom-section h2 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #000000;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.custom-section h3 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #2b2929;
+  white-space: nowrap;
+  line-height: 0.5;
+}
+
+.custom-section p {
+  color: #000000;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.3rem;
+  margin-top: 2em;
+  font-weight: 400;
+}
+
+.custom-section a {
+  display: inline-block;
+  color: white;
+  font-weight: 600;
+  background-color: black;
+  border-radius: 2em;
+  padding: 0.6em 1.5em;
+  text-decoration: none;
+  border: 3px solid transparent;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.custom-section a:hover {
+  color: white;
+  border: 3px solid #080bc9;
+  background-color: #080bc9;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-section {
+    margin-top: 18em;
+    text-align: center;
+  }
+  .custom-section h2,
+  .custom-section h3,
+  .custom-section p {
+    text-shadow: 1px 1px 1px rgba(11, 7, 84, 0.4);
+    opacity: 1;
+    margin-top: 15em;
+  }
+  .custom-section h2 {
+    font-size: 2rem;
+  }
+  .custom-section h3 {
+    font-size: 1.5rem;
+  }
+}
+
+#konsultasi h2 {
+  color: #000000;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+#konsultasi h3 {
+  color: #000000;
+  font-weight: 500;
+  line-height: 0.5;
+  font-size: 18pt;
+}
+
+#konsultasi button {
+  display: inline-block;
+  color: white;
+  background-color: #000000;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  border: 1.5px solid transparent;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  margin-top: 1em;
+}
+
+#konsultasi button:hover {
+  color: white;
+  border: 1.5px solid #0a0dc5;
+  background-color: #0a0dc5;
+}
+
+#konsultasi input,
+#konsultasi select,
+#konsultasi textarea {
+  border-color: #000000;
+}
+
+section {
+  padding-top: 3rem;
+}
+
+footer {
+  background-color: #008cc1;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#loginAdmin h5 {
+  font-weight: 700;
+  color: #4697b9;
+}
+
+#loginAdmin input {
+  border-color: #4697b9;
+}
+
+#loginAdmin .btn-login {
+  display: inline-block;
+  color: white;
+  background-color: #4697b9;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+
+.pakar {
+  font-size: 10pt;
+  /* background-color: #bb0707; */
+}
+
+@media screen and (max-width: 740px) {
+  .row .card {
+    height: 700px;
+  }
+}

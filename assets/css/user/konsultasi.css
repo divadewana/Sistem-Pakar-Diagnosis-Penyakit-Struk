@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+
+.nav-custom {
+  background-color: #008cc1;
+}
+
+.nav-custom .navbar-brand img {
+  width: 50px;
+  height: 50px;
+  margin-top: -7px;
+}
+
+.nav-custom .navbar-brand span {
+  color: #fffefe;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-left: 0.5em;
+}
+
+.nav-custom #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #fffbfb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 2.4em;
+  -webkit-transition: 0.3s color ease;
+  transition: 0.3s color ease;
+}
+
+.nav-custom #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  font-weight: 700;
+  color: #000000;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.nav-custom #navbarNav .navbar-nav .nav-item .nav-link:active {
+  font-weight: 700;
+  color: #000000;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.nav-custom #navbarNav .navbar-nav .nav-item .btn-signup:hover {
+  font-weight: 700;
+  background-color: white;
+  color: black;
+}
+
+.nav-custom #navbarNav .navbar-nav .nav-item .btn-signup {
+  background-color: #008cc1;
+  color: white;
+  border-radius: 2em;
+  border: 0;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-custom {
+    margin-top: -1em;
+  }
+  .nav-custom .navbar-nav {
+    background-color: #008cc1;
+    padding: 1em;
+    margin-left: -1em;
+    margin-top: 0.5em;
+  }
+}
+
+footer {
+  background-color:#008cc1 ;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#loginAdmin h5 {
+  font-weight: 700;
+  color: #4697b9;
+}
+
+#loginAdmin input {
+  border-color: #4697b9;
+}
+
+#loginAdmin .btn-login {
+  display: inline-block;
+  color: white;
+  background-color: #4697b9;
+  border-radius: 2em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+
+#box-warning h2 {
+  color: #000000;
+  font-weight: 700;
+  margin-top: -3.5em;
+}
+
+#box-warning h3 {
+  padding-top: 5px;
+  color: #000000;
+  margin-bottom: 2em;
+  line-height: 0.5;
+}
+
+#box-warning .card-header i {
+  margin-right: 0.3em;
+}
+
+#box-warning .card-header h3 {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 15pt;
+}
+
+@media screen and (max-width: 992px) {
+  #box-warning h2 {
+    margin-top: 0.5em;
+  }
+}
+
+#table-gejala .btn-konsultasi {
+  display: inline-block;
+  font-weight: 600;
+  color: white;
+  background-color: #008cc1;
+  border-radius: 2em;
+  padding: 0.4em 1.5em;
+  text-decoration: none;
+  border: 1.5px solid transparent;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  margin-top: 1em;
+}
+
+#table-gejala .btn-konsultasi:hover {
+  color: #ffffff;
+
+  font-weight: bold;
+  background-color: #000000;
+}
+
+#konsulConfirm h5 {
+  font-weight: 700;
+  color:#008cc1;
+}
+
+#konsulConfirm .btn-confirm {
+  display: inline-block;
+  color: white;
+  background-color: #008cc1;
+  border-radius: 2em;
+  padding: 0.4em 1.5em;
+  text-decoration: none;
+}
